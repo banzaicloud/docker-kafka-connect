@@ -9,3 +9,4 @@ The following connectors from [Confluent Hub](https://www.confluent.io/hub/) are
 - Kafka Connect Elasticsearch
 - Amazon S3 Sink Connector
 - Kafka Connect Avro Converter
+- Kafka Connect Spooldir (https://docs.confluent.io/kafka-connectors/spooldir/current/overview.html)
