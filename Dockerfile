@@ -3,7 +3,7 @@ ARG CP_KAFKA_CONNECT_BASE_VERSION=7.2.2
 FROM confluentinc/cp-kafka-connect-base:$CP_KAFKA_CONNECT_BASE_VERSION
 
 ENV COMPONENT=kafka-connect
-ENV CONNECT_PLUGIN_PATH=/usr/share/java,/usr/share/confluent-hub-components,/usr/share/filestream-connectors
+ENV CONNECT_PLUGIN_PATH=/usr/share/java,/usr/share/confluent-hub-components
 
 ARG CONFLUENTINC_JDBC_CONNECTOR_VERSION=10.5.4
 ARG CONFLUENTINC_HDFS_CONNECTOR_VERSION=10.1.13
